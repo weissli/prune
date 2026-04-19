@@ -4,9 +4,9 @@ Prune is a Progressive Web App (PWA) designed to help you care for your plants, 
 
 ## Screenshots
 
-| Main Screen | Detail View |
-| :---: | :---: |
-| <img src="main_screen.jpg" width="300" alt="Main Screen" /> | <img src="add-plant.jpg" width="300" alt="Detail View" /> |
+| Main Screen | Add a Plant | View a Plant |
+| :---: | :---: | :---: |
+| <img src="main_screen.jpg" width="300" alt="Main Screen" /> | <img src="add-plant.jpg" width="300" alt="Add a plant" /> | <img src="view-plant.jpg" width="300" alt="View a Plant" /> |
 
 *Note: Please add your screenshots to the `assets/` directory and update the paths above.*
 
