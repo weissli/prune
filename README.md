@@ -15,7 +15,7 @@ Prune is a Progressive Web App (PWA) designed to help you care for your plants, 
 
 Since this is designed to be saved to your home screen as a Progressive Web App (PWA) your data stored locally. No app store, no logins, full control over your data; just a simple secure mobile app.
 
-[Try it out](https://everyeye.org.uk/pwa/prune/index.html#/welcome) and save to your device.
+**[Try it out](https://everyeye.org.uk/pwa/prune/index.html#/welcome)**
 
 ## Screenshots
 
