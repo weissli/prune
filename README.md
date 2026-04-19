@@ -1,6 +1,21 @@
 # Prune
 
-Prune is a Progressive Web App (PWA) designed to help you care for your plants, featuring a Gemini-powered assistant.
+Prune is a Progressive Web App (PWA) designed to help you care for your plants, featuring a Gemini-powered assistant. 
+
+  ## Features
+  
+  -   🤖 **AI-Powered Plant Care Generation**: Simply input a plant name, and Prune uses Google's Gemini AI to automatically generate tailored care instructions and pruning schedules.
+  -   🖼️ **AI Image Generation**: Automatically generates beautiful images for your plants using Imagen or Gemini fallback models.
+  -   📅 **Dynamic Pruning Dashboard**: View your plants arranged by their seasonal pruning schedule. The app highlights the current month to show you what needs attention now.
+  -   ✅ **Task Management**: Track your pruning tasks and mark them as completed for the current season.
+  -   🔒 **Privacy-First Local Storage**: All your data (plants, tasks, and settings) is stored safely in your browser's `localStorage`. No account required!
+  -   🗜️ **Smart Data Compression**: Uses `lz-string` to compress large payloads (like base64 images) so you can store a full garden without hitting browser storage limits.
+  -   💾 **Import/Export**: Easily back up your garden or move it to another device by importing and exporting your data as JSON files.
+    
+
+Since this is designed to be saved to your home screen as a Progressive Web App (PWA) your data stored locally. No app store, no logins, full control over your data; just a simple secure mobile app.
+
+[Try it out](https://everyeye.org.uk/pwa/prune/index.html#/welcome) and save to your device.
 
 ## Screenshots
 
