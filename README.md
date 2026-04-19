@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Prune
 
-# Run and deploy your AI Studio app
+Prune is a Progressive Web App (PWA) designed to help you care for your plants, featuring a Gemini-powered assistant.
 
-This contains everything you need to run your app locally.
+## Screenshots
 
-View your app in AI Studio: https://aistudio-preprod.corp.google.com/apps/a698f3d9-f5ea-4dbd-8db1-23ac49118565
+| Main Screen | Detail View |
+| :---: | :---: |
+| <img src="assets/screenshot1.jpg" width="300" alt="Main Screen" /> | <img src="assets/screenshot2.jpg" width="300" alt="Detail View" /> |
 
-## Run Locally
+*Note: Please add your screenshots to the `assets/` directory and update the paths above.*
 
-**Prerequisites:**  Node.js
+## Getting Started
 
+### Prerequisites
+- Node.js (v18+ recommended)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone the repository (if you haven't already):
+   ```bash
+   git clone https://github.com/weissli/prune.git
+   cd prune
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running Locally
+
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   The app will be available at `http://localhost:3000` (or the port specified in output).
+
+### Deployment
+
+To deploy the application to the configured FTP server:
+
+1. Ensure `.env.deploy` is configured with your FTP credentials.
+2. Run the release script:
+   ```bash
+   ./release.sh <feature_update_name>
+   ```
+   This will create a backup of the `src` directory and deploy the built assets to the server.
